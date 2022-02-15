@@ -20,7 +20,7 @@ layout: default
                 </span>
             </div>
             <div class="mt-4 about"><span>
-                    <h6>{{ faculty.bio }}</h6>
+                    <h6>{{ faculty.bio | markdownify | newline_to_br }}</h6>
                 </span></div>
 
             <div class="mt-auto staff-email">
@@ -43,7 +43,7 @@ layout: default
                     <h6 class=" v-profile"><a href="mailto:{{ tutor.email }}">{{ tutor.email }}</a></h6>
                 </div>
                 <div class="mt-4 about"><span>
-                        <h6>{{ tutor.bio }}</h6>
+                        <h6>{{ tutor.bio | markdownify | newline_to_br }}</h6>
                     </span></div>
                 <div class="mt-4 fact">
                     <h6>Fun Fact: {{ tutor.fact }}</h6>

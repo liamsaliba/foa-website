@@ -63,8 +63,10 @@
 - name: Stella Li
   image: images/stella-sq.png
   email: "yunzhil1@student.unimelb.edu.au"
-  bio: ""
-  fact: ""
+  bio: |
+    Hi, I’m Stella. I am studying a Bachelor of Science majoring in Computing and Software Systems. 
+    I am currently in the 4th year of my degree because I spent last year as a full-time software development intern."
+  fact: "I play volleyball with the university state league team (in the lowest division)."
   classes:
     - W1 Monday 2:15PM Online
     - W6 Tuesday 4:15PM, 221 Bouverie St, B113
@@ -81,8 +83,10 @@
 - name: Hannah Chesterman
   image: images/hannah.png
   email: "hannah@sportcom.com.au"
-  bio: |-
-    I recently completed my Master of Information Technology, specialising in computing, and hope to continue to a research degree. My interests are in algorithms, data structures, and computational complexity. A bonus fun fact: my favourite numbers are 3 and 8, and I have 3 cats, currently aged 8, 8, and 3.
+  bio: |
+    I recently completed my Master of Information Technology, specialising in computing, and hope to continue to a research degree. 
+    My interests are in algorithms, data structures, and computational complexity. 
+    A bonus fun fact: my favourite numbers are 3 and 8, and I have 3 cats, currently aged 8, 8, and 3.
   fact: "My surprising fact is that there are exactly 10! seconds in 6 weeks."
   classes:
     - W11 Wednesday, 5:15PM, Online

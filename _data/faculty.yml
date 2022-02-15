@@ -1,19 +1,16 @@
-
 - name: Jianzhong Qi
   image: images/jianzhong-sq.png
   role: Subject Coordinator
-  email: ' jianzhong.qi@unimelb.edu.au'
-  bio: 'Senior Lecturer, School of Computing and Information Systems '
-  url: ' https://people.eng.unimelb.edu.au/jianzhongq/Links to an external site.'
-  consultation: 'Thursday 1:30PM-2:30PM, Access via Zoom'
+  email: " jianzhong.qi@unimelb.edu.au"
+  bio: "Senior Lecturer, School of Computing and Information Systems "
+  url: " https://people.eng.unimelb.edu.au/jianzhongq/Links to an external site."
+  consultation: "Thursday 1:30PM-2:30PM, Access via Zoom"
 - name: Shaanan Cohney
   image: images/shaanan-sq.png
   role: Co-Lecturer
   email: cohneys@unimelb.edu.au
-  bio: |-
-    Lecturer (Cybersecurity), School of Computing and Information Systems
-
+  bio: |
+    Lecturer, School of Computing and Information Systems
     PhD, Master in Law, Piano player, mischief maker.
   url: cohney.info
-  consultation: 'Tuesday 2:15PM-2:45PM, Melbourne Connect, 2.102'
-
+  consultation: "Tuesday 2:15PM-2:45PM, Melbourne Connect, 2.102"
