@@ -1,0 +1,89 @@
+- name: Liam Saliba
+  image: images/liam-sq.jpg
+  email: "liam.saliba@unimelb.edu.au"
+  bio: |-
+    Currently a Master of Computer Science student at Unimelb with interests in Machine Learning and Programming Languages.  
+    4th semester tutoring Foundations of Algorithms.  
+    I enjoy meeting new students and seeing what gets them ticking (hopefully, C & Algorithms!).  
+    Also studying Chinese, but I'm not very good at it.
+  fact: "I enjoy coke, but I haven't had any for 5 years..."
+  classes:
+    - W13, Thursday 3:15PM, Online
+    - W10 Tuesday 2:15PM, 221 Bouverie St, B114
+
+- name: Alec Yu
+  image: images/alec-sq.png
+  email: "alecy@student.unimelb.edu.au"
+  bio: |-
+    Hey there! I'm Alec and I am in my final year of my Computing and Software Systems undergrad here at Unimelb. This will be my fourth semester working alongside Jianzhong as a tutor, and my second semester teaching this subject. Tutoring at university has been one of the most fulfilling and rewarding experiences in my life. The moment where a student finally understands a difficult concept is a feeling that keeps me motivated to tutor.
+  fact: "My surprising fact is… I own a Venus flytrap!"
+  classes:
+    - W22, Wednesday, 3:15PM, Online
+    - W09, Friday 11AM, 221 Bouverie Street B113
+
+- name: Kuoyuan Li
+  image: images/kuoyuan-sq.png
+  email: "kuoyuan.li1@unimelb.edu.au"
+  bio: |-
+    Hey! My name is Kuoyuan Li and it’s really exciting to see you all. I am a Master of Computer Science Student at the Uni. My interests are around AI and machine learning which heavily rely on a good algorithm foundation. Best wishes for your journey on studying!
+  fact: "I can remember 32 digits of pi. (I used to remember more but forgot a lot :("
+  classes:
+    - W12, Thursday,  4:15PM, Online
+    - W19, Wednesday, 5:15PM,  221 Bouverie Street B114
+
+- name: Lenny Bloom
+  image: images/lenny-sq.png
+  email: "lenny.bloom@unimelb.edu.au"
+  bio: |-
+    I studied a bachelor degree of science with a major in Electronic Engineering at Melbourne University in 2012.  I currently work as a professional tutor and tour guide of Melbourne. I look forward to teaching you programming.
+  fact: "I can do a backflip"
+  classes:
+    - W18, Friday, 1:00PM, Online
+    - W4, Thursday, 3:15PM, 221 Bouverie Street, B114
+
+- name: Isabelle Ostrowski
+  image: images/isabelle-sq.jpg
+  email: "i.ostrowski@unimelb.edu.au"
+  bio: |-
+    I am a 4th-year undergraduate student studying a Bachelor of Science (Physics) with a Diploma in Computing. Next year, I hope to start a Masters with the experimental particle physics group here at Unimelb. In my spare time, you can find me studying, singing in choir, or playing video games.
+  fact: My surprising fact is… The five people in my family were born across four different countries (Australia, The US, France, The Netherlands).
+  classes:
+    - W01/06, Monday 5.15 pm, Online
+    - W01/16, Tuesday 10.00 am, PAR-207-221 Bouverie St - B113
+
+- name: Thomas Minuzzo
+  image: images/tom-sq.png
+  email: "minuzzot@unimelb.edu.au "
+  bio: ""
+  fact: My surprising fact is I've grown a tree from a seed that is now taller than myself.
+  classes:
+    - W21 Monday 2:15PM, Online
+    - W17 Monday 4:15PM, 221 Bouverie St, B113
+
+- name: Stella Li
+  image: images/stella-sq.png
+  email: "yunzhil1@student.unimelb.edu.au"
+  bio: ""
+  fact: ""
+  classes:
+    - W1 Monday 2:15PM Online
+    - W6 Tuesday 4:15PM, 221 Bouverie St, B113
+
+- name: Alexander Zable
+  image: images/alexander-sq.png
+  email: "alexander.zable@unimelb.edu.au"
+  bio: ""
+  fact: ""
+  classes:
+    - W8, Thursday, 5:15PM, Online
+    - W16, Wednesday, 11:00AM, 221 Bouverie St, B113
+
+- name: Hannah Chesterman
+  image: images/hannah.png
+  email: "hannah@sportcom.com.au"
+  bio: |-
+    I recently completed my Master of Information Technology, specialising in computing, and hope to continue to a research degree. My interests are in algorithms, data structures, and computational complexity. A bonus fun fact: my favourite numbers are 3 and 8, and I have 3 cats, currently aged 8, 8, and 3.
+  fact: "My surprising fact is that there are exactly 10! seconds in 6 weeks."
+  classes:
+    - W11 Wednesday, 5:15PM, Online
+    - W15, Wednesday, 3:15PM, 221 Bouverie Street B117

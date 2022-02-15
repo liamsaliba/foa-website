@@ -1,0 +1,68 @@
+---
+layout: default
+---
+<div class="container text-center mt-5 mb-2">
+    <h1 class="mb-2">Meet your teaching staff</h1><span>
+        <h5>Foundations of Algorithms wouldn't be the same without
+            them!</h5>
+    </span>
+</div>
+
+
+<div class="container mt-3">
+    <div class="row">
+        {% for faculty in site.data.faculty %}
+        <div class="col d-flex flex-column bg-white p-3 text-center rounded box">
+            <div class="staff-header faculty">
+                <img class="img-responsive rounded-circle" src="/assets/{{ faculty.image }}" width="270">
+                <h3 class="mt-3 name">{{ faculty.name}}</h3><span class="work d-block">
+                    <h4>{{ faculty.role }}</h4>
+                </span>
+            </div>
+            <div class="mt-4 about"><span>
+                    <h6>{{ faculty.bio }}</h6>
+                </span></div>
+
+            <div class="mt-auto staff-email">
+                <h6 class="v-profile"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></h6>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="cgrid">
+        {% for tutor in site.data.tutors %}
+        <div class="bg-white p-3 text-center rounded box" style="">
+            <div class="rgrid">
+                <div class="staff-header tutors" style="">
+                    <img class="img-responsive rounded-circle" src="/assets/{{ tutor.image }}" width="180">
+                    <h3 class="mt-3 name">{{ tutor.name}}</h3><span class="work d-block">
+                    </span>
+                </div>
+                <div class="staff-email" style="">
+                    <h6 class=" v-profile"><a href="mailto:{{ tutor.email }}">{{ tutor.email }}</a></h6>
+                </div>
+                <div class="mt-4 about"><span>
+                        <h6>{{ tutor.bio }}</h6>
+                    </span></div>
+                <div class="mt-4 fact">
+                    <h6>Fun Fact: {{ tutor.fact }}</h6>
+                </div>
+                <div class="mt-4 classes">
+                    <h6>Classes:</h6>
+                    <ul style="text-align: left;">
+                        {% for class in tutor.classes %}
+                        <li>
+                            {{ class }}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+        {% endfor %}
+    </div>
+</div>
