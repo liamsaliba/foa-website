@@ -46,8 +46,14 @@ body {
 
 .rgrid {
     display: grid;
-    grid-template-rows: 250px 30px 350px 100px;
+    grid-template-rows: 250px 30px 350px 120px;
     grid-auto-columns: 1fr;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
 }
+
+.tutor-bio {
+    font-size:medium!important
+}
+
+#nav-btns > a:visited { color:white !important; }

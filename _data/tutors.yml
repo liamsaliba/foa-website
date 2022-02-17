@@ -52,10 +52,11 @@
     - W01/16, Tuesday 10.00 am, PAR-207-221 Bouverie St - B113
 
 - name: Thomas Minuzzo
-  image: images/tom-sq.png
+  image: images/tom-sq.jpg
   email: "minuzzot@unimelb.edu.au "
-  bio: ""
-  fact: My surprising fact is I've grown a tree from a seed that is now taller than myself.
+  bio: |
+    I am studying a Master’s of Mechatronics Engineering, currently working on an exoskeleton for people with paraplegia. I have tutored at UoM in Computer Science for four years. In my spare time, I love to play basketball."
+  fact: The largest magnitude English word you can write in hexadecimal if "effaced" which has a decimal value of 251, 636, 973.
   classes:
     - W21 Monday 2:15PM, Online
     - W17 Monday 4:15PM, 221 Bouverie St, B113
@@ -72,22 +73,24 @@
     - W6 Tuesday 4:15PM, 221 Bouverie St, B113
 
 - name: Alexander Zable
-  image: images/alexander-sq.png
+  image: images/alex-sq.png
   email: "alexander.zable@unimelb.edu.au"
-  bio: ""
-  fact: ""
+  bio: |
+    I'm super passionate about both computing and teaching! I've been tutoring at UniMelb since 2015, and among other research roles, have been a designer/developer of the Quantum User Interface (QUI) [project](https://qui.research.unimelb.edu.au/).
+    I completed my MSc (Computer Science) in 2020. 
+    My [thesis](https://dl.acm.org/doi/10.1145/3385956.3418957) focused on the utility of Virtual Reality in Quantum Computing education.
+    Outside of work I'm into health and fitness, travel, and am somewhat of a rollercoaster fanatic!
+  fact: "I love rollercoasters so much I once travelled through Ohio USA specifically to visit a renowned theme park called Cedar Point! (And if you're wondering, it was well worth the detour!)"
   classes:
     - W8, Thursday, 5:15PM, Online
     - W16, Wednesday, 11:00AM, 221 Bouverie St, B113
 
 - name: Hannah Chesterman
-  image: images/hannah.png
-  email: "hannah@sportcom.com.au"
+  image: images/hannah-sq.png
+  email: "hchesterman@student.unimelb.edu.au"
   bio: |
-    I recently completed my Master of Information Technology, specialising in computing, and hope to continue to a research degree. 
-    My interests are in algorithms, data structures, and computational complexity. 
-    A bonus fun fact: my favourite numbers are 3 and 8, and I have 3 cats, currently aged 8, 8, and 3.
-  fact: "My surprising fact is that there are exactly 10! seconds in 6 weeks."
+    Hi all! I am a Tasmanian BSci student going into my fourth year and final semester. My major is discrete mathematics and operations research and I’m also doing a concurrent Diploma in Computing.
+  fact: "My favourite thing I own is a digital ski coach device which analyses your skiing technique when inserted into your boots! I haven’t used it yet thanks to our good friend Covid, but you best believe I’m excited to!"
   classes:
     - W11 Wednesday, 5:15PM, Online
     - W15, Wednesday, 3:15PM, 221 Bouverie Street B117
