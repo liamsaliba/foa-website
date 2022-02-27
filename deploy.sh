@@ -6,7 +6,7 @@ rm -r inlines
 mkdir inlines
 OLDIFS=$IFS
 IFS=','
-for paget in staff,staff-information home,welcome; do
+for paget in staff,staff-information home,welcome syllabus,syllabus; do
     set -- $paget
     echo $1.html
     npm exec juice _site/$1.html inlines/$1.html

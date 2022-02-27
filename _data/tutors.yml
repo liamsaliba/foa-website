@@ -42,14 +42,14 @@
     - W4, Thursday, 3:15PM, 221 Bouverie Street, B114
 
 - name: Isabelle Ostrowski
-  image: images/isabelle-sq.jpg
+  image: images/isabelle-sq.png
   email: "i.ostrowski@unimelb.edu.au"
   bio: |-
-    I am a 4th-year undergraduate student studying a Bachelor of Science (Physics) with a Diploma in Computing. Next year, I hope to start a Masters with the experimental particle physics group here at Unimelb. In my spare time, you can find me studying, singing in choir, or playing video games.
+    I am a new Master of Science (Physics) student with the experimental particle physics research group, working on the Belle II experiment. This is my third year working as a tutor and 4th semester tutoring COMP10002. Outside of studies I spend time singing classical music with the Melbourne University Choral Society (MUCS).
   fact: My surprising fact is… The five people in my family were born across four different countries (Australia, The US, France, The Netherlands).
   classes:
-    - W01/06, Monday 5.15 pm, Online
-    - W01/16, Tuesday 10.00 am, PAR-207-221 Bouverie St - B113
+    - W15, Wednesday 3:15PM, Online
+    - W2, Monday 11:00AM, Electrical Engineering, 122
 
 - name: Thomas Minuzzo
   image: images/tom-sq.jpg
