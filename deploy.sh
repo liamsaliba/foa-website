@@ -7,11 +7,7 @@ rm -r inlines
 mkdir inlines
 OLDIFS=$IFS
 IFS=','
-<<<<<<< HEAD
 for paget in staff,staff-information home,welcome syllabus,syllabus schedule,weekly-schedule-will-be-updated-along-the-semester; do
-=======
-for paget in staff,staff-information home,welcome syllabus,syllabus; do
->>>>>>> 77cabf364186d72513a499f7f3cfd0df26aec3cb
     set -- $paget
     echo $1.html
     npm exec juice _site/$1.html inlines/$1.html
