@@ -1,0 +1,35 @@
+<html>
+<!-- Automatically redirect to the correct Zoom link for a lecture, based on day of week  -->
+<!-- Idea by Shaanan Cohney -->
+<!-- Code by Liam Saliba & GitHub Copilot 2022- -->
+<script>
+    function redirect() {
+        const TUE_URL = "https://unimelb.zoom.us/j/81934190306?pwd=T3E4UmpqZmRDbG9CbDl1MVpiWTBNZz09";
+        const WED_URL = "https://unimelb.zoom.us/j/83410567630?pwd=T2tLWDhMRERkdGkxekJqZHkreUxOZz09";
+        const THU_URL = "https://unimelb.zoom.us/j/81387222779?pwd=VXA5TkJYNUlBVG1rR2dQNGNpUGVxQT09";
+        
+        // get the current time in Australian time zone
+        var today = new Date().toLocaleString("en-US", {
+            timeZone: "Australia/Melbourne"
+        });
+        today = new Date(today);
+        var day = today.getDay();
+        switch (day) {
+            case 2:
+                window.location.href = TUE_URL;
+                break;
+            case 3:
+                window.location.href = WED_URL;
+                break;
+            case 4:
+                window.location.href = THU_URL;
+                break;
+            default:
+                window.location.href = TUE_URL;
+        }
+    }
+    
+    redirect();
+    // window.onload = redirect;
+</script>
+</html>
