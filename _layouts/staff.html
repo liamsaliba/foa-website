@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
+
 <div class="container text-center mt-5 mb-2">
+    {% include nav.html %}
     <h1 class="mb-3">Meet your teaching staff</h1><span>
         <h5>Foundations of Algorithms wouldn't be the same without
             them!</h5>
@@ -21,7 +23,9 @@ layout: default
             <div class="mt-4 lead text-muted"><span>
                     {{ faculty.bio | markdownify | newline_to_br }}
                 </span></div>
-
+                <div class="mt-4 mb-2 lead"><span>
+                    Office Hours: {{ faculty.consultation }}
+                </span></div>
             <div class="mt-auto staff-email">
                 <h6 class="v-profile"><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></h6>
             </div>

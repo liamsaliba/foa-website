@@ -2,7 +2,9 @@
   image: images/jianzhong-sq.png
   role: Subject Coordinator
   email: " jianzhong.qi@unimelb.edu.au"
-  bio: "Senior Lecturer, School of Computing and Information Systems "
+  bio: | 
+    Senior Lecturer
+    School of Computing and Information Systems"
   url: " https://people.eng.unimelb.edu.au/jianzhongq/Links to an external site."
   consultation: "Thursday 1:30PM-2:30PM, Access via Zoom"
 - name: Shaanan Cohney
@@ -13,4 +15,4 @@
     Lecturer, School of Computing and Information Systems
     PhD, Master in Law, Piano player, mischief maker.
   url: cohney.info
-  consultation: "Tuesday 2:15PM-2:45PM, Melbourne Connect, 2.102"
+  consultation: "Tuesday 2:15PM-2:45PM, Melbourne Connect, Superfloor (M)"

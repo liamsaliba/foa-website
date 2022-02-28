@@ -1,4 +1,5 @@
 #!/bin/bash
+
 COURSEID=124111
 jekyll b
 git add assets/images/* && git commit -m "updated images" && git push
@@ -6,7 +7,7 @@ rm -r inlines
 mkdir inlines
 OLDIFS=$IFS
 IFS=','
-for paget in staff,staff-information home,welcome; do
+for paget in staff,staff-information home,welcome syllabus,syllabus schedule,weekly-schedule-will-be-updated-along-the-semester; do
     set -- $paget
     echo $1.html
     npm exec juice _site/$1.html inlines/$1.html

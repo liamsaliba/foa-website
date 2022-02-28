@@ -56,4 +56,20 @@ body {
     font-size:medium!important
 }
 
+.table.sched>thead>tr>th {
+    font-weight: 700;
+    color: rgb(63,63,63)
+}
+
+.table.sched th {
+    font-weight: 600;
+    color: rgb(63,63,63)
+}
+
+.sched.break {
+    background-color: #e5e5f7;
+opacity: 0.90;
+background: repeating-linear-gradient( -45deg, rgba(69,78,247,0.30), rgba(68,76,247,0.3), 5px, rgba(229, 229, 247,0.3) 5px, rgba(229, 229, 247,0.3) 25px );
+}
+
 #nav-btns > a:visited { color:white !important; }
